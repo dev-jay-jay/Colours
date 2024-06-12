@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --yellow: #f1be32;
+    --golden-yellow: #feac32;
+    --dark-purple: #110815;
+    --light-grey: #efefef;
+    --fun-font: 'Pacifico', cursive;
+}
+
+body {
+    background-color: var(--dark-purple);
+    color: var(--light-grey);
+    text-align: center;
+    font-family: var(--fun-font);
+}
+
+header {
+    background-color: var(--blue);
+    padding: 20px;
+    border-bottom: 5px solid var(--dark-purple);
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+    color: var(--light-grey);
+}
+
+.bg-information-container {
+    margin: 15px 0 25px;
+    font-size: 1.2rem;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    color: var(--dark-purple);
+    background-color: var(--golden-yellow);
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    border-color: var(--golden-yellow);
+    border-width: 3px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-image: linear-gradient(#ffcc4c, #f89808);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+#bg-hex-code {
+    font-weight: bold;
+    font-size: 18px;
+}
+header {
+    background-color: #1a1a2e; /* midnight blue */
+    padding: 20px;
+    border-bottom: 5px solid var(--dark-purple);
+}
